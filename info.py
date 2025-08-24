@@ -19,7 +19,7 @@ SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "25753873"))
 API_HASH = environ.get("API_HASH", "3a5cdc2079cd76af80586102bd9761e2")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7524845281:AAGy1cqBFCcvlxz7Gs548qQRanOsto_JtJY")
-PORT = environ.get("PORT", "8082")
+PORT = environ.get("PORT", "1000")
 
 # Owners
 ADMINS = [
@@ -49,8 +49,8 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://anonymousguywas:12345T
 DATABASE_NAME = environ.get("DATABASE_NAME", "MoviesHubTest")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "-1002681833322")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "MoviesHub")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://ramybeginning:ALLAHAKBAr%40232956@cluster0.ja2zly9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "MovieHubFlix")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002504647488"))
