@@ -53,8 +53,8 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://ramybeginning:ALLA
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "MovieHub")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002504647488"))
-DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002517323765"))
+DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002624020325"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1002660016728")
 REQUEST_CHANNEL = (
     int(request_channel)
