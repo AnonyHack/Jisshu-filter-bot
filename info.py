@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get("DATABASE_NAME", "MovieHub")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://ramybeginning:ALLAHAKBAr%40232956@cluster0.ja2zly9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "MovieHub")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "MovieDB")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002517323765"))
