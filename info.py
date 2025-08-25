@@ -16,15 +16,15 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", "25753873"))
-API_HASH = environ.get("API_HASH", "3a5cdc2079cd76af80586102bd9761e2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7524845281:AAGy1cqBFCcvlxz7Gs548qQRanOsto_JtJY")
+API_ID = int(environ.get("API_ID", ""))
+API_HASH = environ.get("API_HASH", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "1000")
 
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5962658076").split()
+    for admin in environ.get("ADMINS", "").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "Am_itachiuchiha"
@@ -46,7 +46,7 @@ LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002285537624"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://ramybeginning:ALLAHAKBAr%40232956@cluster0.ja2zly9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get("DATABASE_NAME", "MovieHubFlix")
+DATABASE_NAME = environ.get("DATABASE_NAME", "MovieHub")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://ramybeginning:ALLAHAKBAr%40232956@cluster0.ja2zly9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -130,7 +130,7 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg",
+        "https://t.me/c/2681833322/2568 https://envs.sh/tTs.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
@@ -158,10 +158,10 @@ IMDB = is_enabled("IMDB", True)
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.FILE_CAPTION}")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", True)
-PROTECT_CONTENT = is_enabled("PROTECT_CONTENT", True)
+PROTECT_CONTENT = is_enabled("PROTECT_CONTENT", False)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 LINK_MODE = is_enabled("LINK_MODE", True)
-TMDB_API_KEY = environ.get("TMDB_API_KEY", "d6b0fe020db56e35227657fd8c0afd5c")
+TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download
 STREAM_MODE = bool(environ.get("STREAM_MODE", True))  # Set True or Flase
