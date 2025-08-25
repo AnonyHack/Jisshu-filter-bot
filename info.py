@@ -133,13 +133,13 @@ START_IMG = (
         "https://t.me/c/2681833322/2568 https://envs.sh/tTs.jpg",
     )
 ).split()
-FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
+FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://envs.sh/tAg.jpg")
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/tAf.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg")
+    environ.get("PAYPICS", "https://envs.sh/tAm.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
-    "SUBSCRIPTION", "https://graph.org/file/9f3f47c690bbcc67633c2.jpg"
+    "SUBSCRIPTION", "https://envs.sh/tAN.jpg"
 )
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
