@@ -141,8 +141,6 @@ PAYPICS = (
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://envs.sh/tAN.jpg"
 )
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
-
 
 # Other Funtions
 FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "600"))
